@@ -1,6 +1,6 @@
 {
   "name": "@siamf/next-progress",
-  "version": "1.5.7",
+  "version": "1.6.0",
   "description": "A next js (app+page) route top progress bar has all the functionality required, including all the features and fixed from earlier packages.",
   "homepage": "https://github.com/siamahnaf/next-progress",
   "main": "dist/cjs/index.js",
