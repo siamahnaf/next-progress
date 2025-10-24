@@ -6,7 +6,7 @@
 </picture> 
 <br/> <br/>
 
-# Next App Progress Bar
+# @siamf/next-progress
 A next js (app+page) route top progress bar has all the functionality required, including all the features and fixed from earlier packages. Most popular packages are <a href="https://www.npmjs.com/package/nextjs-toploader">nextjs-toploader </a> and <a href="https://www.npmjs.com/package/next-nprogress-bar"> next-nprogress-bar </a> both has some issues. <a href="https://www.npmjs.com/package/nextjs-toploader">nextjs-toploader </a> do not come with delay time and even they don't want to give this options as it already has a closed <a href="https://github.com/TheSGJ/nextjs-toploader/pull/18">PR </a>. On the other hand <a href="https://www.npmjs.com/package/next-nprogress-bar"> next-nprogress-bar </a> has a open <a href="https://github.com/Skyleen77/next-nprogress-bar/issues/74">issue</a>. I just try solve this issues and give the options also.
 
 <a href="https://www.buymeacoffee.com/siamahnaf" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
@@ -19,14 +19,14 @@ A next js (app+page) route top progress bar has all the functionality required, 
 # Installation
 
 ```bash
-$ npm i next-app-progress-bar
+$ npm i @siamf/next-progress
 ```
 
 # App Router
 Import `AppProgressBar` in your `app/layout.tsx/js` and place inside the `body` tag.
 
 ```javascript
-import { AppProgressBar } from "next-app-progress-bar";
+import { AppProgressBar } from "@siamf/next-progress";
 
 export default function RootLayout({ children }) {
     return (
@@ -44,9 +44,9 @@ export default function RootLayout({ children }) {
 For triggering progress bar in your `app` folder, please use follow the steps bellow.
 
 ```javascript
-//Import `useRouter` from `next-app-progress-bar` instead `next/navigation`.
+//Import `useRouter` from `@siamf/next-progress` instead `next/navigation`.
 
-import { useRouter } from "next-app-progress-bar";
+import { useRouter } from "@siamf/next-progress";
 
 //Then simple use it as like you normally use from `next/navigation`
 
@@ -56,7 +56,7 @@ import { useRouter } from "next-app-progress-bar";
 Import `PageProgressBar` into your `pages/_app.tsx/js` and place the component on `MyApp`.
 
 ```javascript
-import { PageProgressBar } from 'next-app-progress-bar';
+import { PageProgressBar } from '@siamf/next-progress';
 
 export default function MyApp({ Component, pageProps }) {
     return (

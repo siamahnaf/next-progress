@@ -1,6 +1,6 @@
 {
   "name": "@siamf/next-progress",
-  "version": "1.6.0",
+  "version": "2.0.0",
   "description": "A next js (app+page) route top progress bar has all the functionality required, including all the features and fixed from earlier packages.",
   "homepage": "https://github.com/siamahnaf/next-progress",
   "main": "dist/cjs/index.js",
@@ -38,19 +38,20 @@
     "url": "https://github.com/siamahnaf/next-progress"
   },
   "devDependencies": {
-    "@types/node": "^22.12.0",
+    "@types/node": "^24.9.1",
     "@types/nprogress": "^0.2.3",
-    "@types/react": "^19.0.8",
-    "@types/react-dom": "^19.0.3",
-    "next": "^15.1.6",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "typescript": "^5.7.3"
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "next": "^16.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.9.3"
   },
   "peerDependencies": {
-    "next": "^13 || ^14 || ^15",
-    "react": "^17 || ^18 || ^19",
-    "react-dom": "^17 || ^18 || ^19"
+    "next": "^15 || ^16",
+    "react": "^19",
+    "react-dom": "^19"
   },
   "dependencies": {
     "nprogress": "^0.2.0"
